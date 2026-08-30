@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 738388b3e319f584db05d9e4942841c1
+guid: 7031b6f7ccc3ce4468c4e2e16b4d4736
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9194381073413339228
-    second: phaenon_0
-  - first:
-      213: -225021240888566163
-    second: phaenon_1
-  - first:
-      213: -8994758380273554561
-    second: phaenon_2
-  - first:
-      213: -11220854932955834
-    second: phaenon_3
+      213: -3368323094710029092
+    second: EscenaHaloFlappyPhaenon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 700
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: phaenon_0
+      name: EscenaHaloFlappyPhaenon_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 494
-        width: 10
-        height: 10
+        x: 0
+        y: 0
+        width: 3336
+        height: 558
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a78f9da02ff66080800000000000000
-      internalID: -9194381073413339228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phaenon_1
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 490
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6e5be5af5090ecf0800000000000000
-      internalID: -225021240888566163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phaenon_2
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 176
-        width: 1183
-        height: 539
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7ba35fc8e23c2380800000000000000
-      internalID: -8994758380273554561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phaenon_3
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 429
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64d15af11b228dff0800000000000000
-      internalID: -11220854932955834
+      spriteID: cd47013ddff4141d0800000000000000
+      internalID: -3368323094710029092
       vertices: []
       indices: 
       edges: []
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      phaenon_0: -9194381073413339228
-      phaenon_1: -225021240888566163
-      phaenon_2: -8994758380273554561
-      phaenon_3: -11220854932955834
+      EscenaHaloFlappyPhaenon_0: -3368323094710029092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
