@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: b8bfac2b1fbeeae4698f5f80b6746e7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 766400322766161059
+    second: halo-flappyphaenon_0
+  - first:
+      213: 4385561666564983145
+    second: halo-flappyphaenon_1
+  - first:
+      213: 5641588597782792147
+    second: halo-flappyphaenon_2
+  - first:
+      213: 5313218594092428687
+    second: halo-flappyphaenon_3
+  - first:
+      213: -2243380882558334045
+    second: halo-flappyphaenon_4
+  - first:
+      213: -3602260003642655565
+    second: halo-flappyphaenon_5
+  - first:
+      213: 9218670266570499189
+    second: halo-flappyphaenon_6
+  - first:
+      213: 3988899102695662504
+    second: halo-flappyphaenon_7
+  - first:
+      213: -1593891435194862602
+    second: halo-flappyphaenon_8
+  - first:
+      213: 5079293464077349151
+    second: halo-flappyphaenon_9
+  - first:
+      213: -8441875296352612040
+    second: halo-flappyphaenon_10
+  - first:
+      213: 4063186080303475612
+    second: halo-flappyphaenon_11
+  - first:
+      213: 5333085667894692952
+    second: halo-flappyphaenon_12
+  - first:
+      213: -5607271731973469667
+    second: halo-flappyphaenon_13
+  - first:
+      213: -2736576241603862169
+    second: halo-flappyphaenon_14
+  - first:
+      213: -3491100866210495428
+    second: halo-flappyphaenon_15
+  - first:
+      213: 714638966056290532
+    second: halo-flappyphaenon_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: halo-flappyphaenon_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 184
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4c832780dc2aa00800000000000000
+      internalID: 766400322766161059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 384
+        width: 235
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9690d2c9915acdc30800000000000000
+      internalID: 4385561666564983145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 384
+        width: 162
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7ccb370f2fa4e40800000000000000
+      internalID: 5641588597782792147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 378
+        width: 289
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d21e229285cb940800000000000000
+      internalID: 5313218594092428687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 305
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab453729f8edd0e0800000000000000
+      internalID: -2243380882558334045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 305
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc384ebc93320ec0800000000000000
+      internalID: -3602260003642655565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 305
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574e36cc3cb4fef70800000000000000
+      internalID: 9218670266570499189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 305
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3ac0d899a6b5730800000000000000
+      internalID: 3988899102695662504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_8
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 305
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f33caa3f2c51e9e0800000000000000
+      internalID: -1593891435194862602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 305
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f113b4c8e764d7640800000000000000
+      internalID: 5079293464077349151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 305
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831d1ca152f68da80800000000000000
+      internalID: -8441875296352612040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 305
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9beccc5636536830800000000000000
+      internalID: 4063186080303475612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_12
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 305
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c0797b82de20a40800000000000000
+      internalID: 5333085667894692952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_13
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 305
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ac1a08118fe22b0800000000000000
+      internalID: -5607271731973469667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_14
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 305
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761ad62486ab50ad0800000000000000
+      internalID: -2736576241603862169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_15
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 305
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c340772424e1d8fc0800000000000000
+      internalID: -3491100866210495428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo-flappyphaenon_16
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 305
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e800727a58eae900800000000000000
+      internalID: 714638966056290532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      halo-flappyphaenon_0: 766400322766161059
+      halo-flappyphaenon_1: 4385561666564983145
+      halo-flappyphaenon_10: -8441875296352612040
+      halo-flappyphaenon_11: 4063186080303475612
+      halo-flappyphaenon_12: 5333085667894692952
+      halo-flappyphaenon_13: -5607271731973469667
+      halo-flappyphaenon_14: -2736576241603862169
+      halo-flappyphaenon_15: -3491100866210495428
+      halo-flappyphaenon_16: 714638966056290532
+      halo-flappyphaenon_2: 5641588597782792147
+      halo-flappyphaenon_3: 5313218594092428687
+      halo-flappyphaenon_4: -2243380882558334045
+      halo-flappyphaenon_5: -3602260003642655565
+      halo-flappyphaenon_6: 9218670266570499189
+      halo-flappyphaenon_7: 3988899102695662504
+      halo-flappyphaenon_8: -1593891435194862602
+      halo-flappyphaenon_9: 5079293464077349151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
