@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 544f48f3d9de11b4e82cda2a3a2a4e3e
+guid: 8c35e3619e1f0a646b19c2cfabc7b038
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8387986691100911270
-    second: ColumnaTop_0
-  - first:
-      213: 2688710350317401623
-    second: ColumnaTop_1
+      213: 6043943229744616324
+    second: CollisionBotton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ColumnaTop_0
+      name: CollisionBotton_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1097
-        width: 467
-        height: 1271
+        x: 4
+        y: 8
+        width: 465
+        height: 4950
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a626cf347d186470800000000000000
-      internalID: 8387986691100911270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ColumnaTop_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 3
-        width: 461
-        height: 1104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 716b59671d7305520800000000000000
-      internalID: 2688710350317401623
+      spriteID: 4831e83685660e350800000000000000
+      internalID: 6043943229744616324
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ColumnaTop_0: 8387986691100911270
-      ColumnaTop_1: 2688710350317401623
+      CollisionBotton_0: 6043943229744616324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

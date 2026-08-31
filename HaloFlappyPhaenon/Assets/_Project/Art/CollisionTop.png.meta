@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 78932b8c8f1a9b64e9f3ea6e98de4450
+guid: 3eebe12fb416d6c44a52deb9d69de35c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5303965868301400128
-    second: ColumnaBotton_0
+      213: -6076557930279293720
+    second: CollisionTop_0
+  - first:
+      213: -3452514282654727703
+    second: CollisionTop_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ColumnaBotton_0
+      name: CollisionTop_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 4
-        width: 465
-        height: 1766
+        x: 2
+        y: 1098
+        width: 467
+        height: 3865
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c74917f4278466b0800000000000000
-      internalID: -5303965868301400128
+      spriteID: 8ecae94e1cabbaba0800000000000000
+      internalID: -6076557930279293720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionTop_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 461
+        height: 1104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e107685d843610d0800000000000000
+      internalID: -3452514282654727703
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ColumnaBotton_0: -5303965868301400128
+      CollisionTop_0: -6076557930279293720
+      CollisionTop_1: -3452514282654727703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
