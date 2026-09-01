@@ -46,4 +46,16 @@ public class MainMenuController : MonoBehaviour
             creditsPanel.SetActive(false);
         }
     }
+
+    /// <summary>
+    /// Metodo publico invocado por el boton "Salir". 
+    /// Cierra el ejecutable del juego.
+    /// </summary>
+    public void QuitGame()
+    {
+        // Nota Arquitectonica: Application.Quit() es ignorado dentro del Editor de Unity.
+        // Solo funciona al compilar el .exe o .apk. Por ello dejamos un log para depuracion.
+        Debug.Log("Cerrando aplicacion... (System.exit equivalente)");
+        Application.Quit();
+    }
 }

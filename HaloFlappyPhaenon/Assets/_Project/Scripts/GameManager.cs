@@ -93,4 +93,16 @@ public class GameManager : MonoBehaviour
         // Recarga la escena activa actual para reiniciar todo desde cero
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    /// <summary>
+    /// Metodo publico invocado por el boton "Salir Menu" en el panel de Game Over.
+    /// Retorna a la escena inicial del juego (MainMenu).
+    /// </summary>
+    public void ReturnToMainMenu()
+    {
+        // Al morir congelamos el tiempo (Time.timeScale = 0). 
+        // Es imperativo restaurarlo a 1 ANTES de cambiar de escena, o el menu cargara congelado.
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
 }
