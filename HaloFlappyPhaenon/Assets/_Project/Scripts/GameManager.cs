@@ -50,6 +50,12 @@ public class GameManager : MonoBehaviour
     {
         currentScore++;
         UpdateScoreUI();
+
+        // Delegamos la reproduccion del sonido a nuestro servicio especializado
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayScoreSound();
+        }
     }
 
     private void UpdateScoreUI()
@@ -66,14 +72,15 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
 
         // 2. Logica de persistencia de datos (Record)
-        // Extraemos el record guardado. Si no existe, devuelve 0 por defecto.
         int currentHighScore = PlayerPrefs.GetInt(HIGHSCORE_KEY, 0);
+        bool isNewRecord = false; // Bandera para nuestro AudioManager
 
         if (currentScore > currentHighScore)
         {
             currentHighScore = currentScore;
             PlayerPrefs.SetInt(HIGHSCORE_KEY, currentHighScore);
-            PlayerPrefs.Save(); // Forzamos el guardado en disco duro
+            PlayerPrefs.Save(); // Forzamos guardado en disco duro
+            isNewRecord = true; // ¡Se rompio el record!
         }
 
         // 3. Mostramos la interfaz de Game Over
@@ -82,6 +89,12 @@ public class GameManager : MonoBehaviour
             finalScoreText.text = "PUNTOS: " + currentScore.ToString();
             highScoreText.text = "RÉCORD: " + currentHighScore.ToString();
             gameOverPanel.SetActive(true);
+        }
+
+        // 4. Disparamos la secuencia de audio inyectando el resultado del record
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayDeathSequence(isNewRecord);
         }
     }
 
