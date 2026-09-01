@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc6bc17e9804fd041a4ca096088f678e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleMovement
-  speed: 1.5
+  speed: 3
   destroyXPosition: -15
 --- !u!1 &7965389757610826144
 GameObject:
