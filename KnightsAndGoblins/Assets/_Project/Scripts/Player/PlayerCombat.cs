@@ -10,11 +10,9 @@ public class PlayerCombat : MonoBehaviour
     [Tooltip("Punto de origen del golpe (Hijo del Player ubicado frente a la espada).")]
     [SerializeField] private Transform attackPoint;
     [Tooltip("Radio del circulo de impacto de la espada.")]
-    [SerializeField] private float meleeRange = 0.8f;
+    [SerializeField] private float meleeRange = 1.2f;
     [Tooltip("Dano infligido por cada espadazo.")]
     [SerializeField] private int meleeDamage = 25;
-    [Tooltip("Capas (Layers) que seran detectadas como enemigos.")]
-    [SerializeField] private LayerMask enemyLayers;
 
     [Header("Ataque a Distancia (Arco / Proyectil)")]
     [Tooltip("Prefab de la flecha que se instanciara al disparar.")]
@@ -35,7 +33,6 @@ public class PlayerCombat : MonoBehaviour
 
     private void Update()
     {
-        // Control de cadencia de ataque (Cooldown)
         if (Time.time < nextAttackTime)
         {
             return;
@@ -59,14 +56,21 @@ public class PlayerCombat : MonoBehaviour
     {
         animator.SetTrigger(MeleeAttackHash);
 
-        if (attackPoint == null) return;
+        // Si olvidaste asignar AttackPoint en el Inspector, usa la posicion del propio Player como respaldo
+        Vector2 hitOrigin = attackPoint != null ? attackPoint.position : transform.position;
 
-        // Consulta espacial: detecta todos los colliders dentro del circulo de golpe
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, meleeRange, enemyLayers);
+        // Consulta espacial sin filtro restrictivo de capas para garantizar la deteccion en 2D
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(hitOrigin, meleeRange);
 
-        foreach (Collider2D enemy in hitEnemies)
+        foreach (Collider2D hit in hitColliders)
         {
-            IDamageable damageable = enemy.GetComponent<IDamageable>();
+            // Ignoramos al propio jugador para que no se autoinflija dano con su espada
+            if (hit.gameObject == gameObject || hit.CompareTag("Player"))
+            {
+                continue;
+            }
+
+            IDamageable damageable = hit.GetComponent<IDamageable>();
             if (damageable != null)
             {
                 damageable.TakeDamage(meleeDamage);
@@ -78,21 +82,19 @@ public class PlayerCombat : MonoBehaviour
     {
         animator.SetTrigger(RangedAttackHash);
 
-        if (arrowPrefab == null || attackPoint == null) return;
+        if (arrowPrefab == null) return;
 
-        // Si localScale.x es positivo mira a la derecha (0 grados); si es negativo mira a la izquierda (180 grados)
+        Vector3 spawnPos = attackPoint != null ? attackPoint.position : transform.position;
         bool facingRight = transform.localScale.x >= 0f;
         Quaternion arrowRotation = facingRight ? Quaternion.identity : Quaternion.Euler(0f, 0f, 180f);
 
-        Instantiate(arrowPrefab, attackPoint.position, arrowRotation);
+        Instantiate(arrowPrefab, spawnPos, arrowRotation);
     }
 
-    // Dibuja el radio de ataque en la ventana Scene para depuracion visual
     private void OnDrawGizmosSelected()
     {
-        if (attackPoint == null) return;
-
+        Vector3 gizmoCenter = attackPoint != null ? attackPoint.position : transform.position;
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, meleeRange);
+        Gizmos.DrawWireSphere(gizmoCenter, meleeRange);
     }
 }
