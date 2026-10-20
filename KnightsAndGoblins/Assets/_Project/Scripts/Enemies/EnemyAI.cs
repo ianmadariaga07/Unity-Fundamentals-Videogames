@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.AI;
 
 /// <summary>
 /// Controlador de Inteligencia Artificial para enemigos con soporte hibrido (NavMesh 2D + Cinematica Vectorial).
-/// Ejecuta estados de Vigilancia, Persecucion, Retorno y Ataque cuerpo a cuerpo.
+/// Ejecuta estados de Vigilancia, Persecucion, Retorno y Ataque sincronizado con animacion y efectos VFX.
 /// </summary>
 [RequireComponent(typeof(Animator))]
 public class EnemyAI : MonoBehaviour
@@ -21,6 +22,10 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private int attackDamage = 10;
     [Tooltip("Tiempo de espera entre ataques consecutivos.")]
     [SerializeField] private float attackCooldown = 1.2f;
+    [Tooltip("Tiempo en segundos desde que inicia la animacion hasta que impacta el golpe.")]
+    [SerializeField] private float attackHitDelay = 0.28f;
+    [Tooltip("Prefab opcional de efecto visual al impactar (ej. ExplosionVFX para el Boss).")]
+    [SerializeField] private GameObject attackEffectPrefab;
 
     private NavMeshAgent agent;
     private Animator animator;
@@ -37,7 +42,6 @@ public class EnemyAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
 
-        // Guardamos la posicion exacta en 2D (forzando Z = 0)
         initialGuardPosition = new Vector3(transform.position.x, transform.position.y, 0f);
         transform.position = initialGuardPosition;
 
@@ -57,8 +61,6 @@ public class EnemyAI : MonoBehaviour
             playerTarget = playerObj.transform;
         }
 
-        // Si el NavMeshAgent no logro engancharse a la malla al iniciar, lo apagamos
-        // para que actue el motor de respaldo vectorial sin lanzar warnings en consola.
         if (agent != null && !agent.isOnNavMesh)
         {
             agent.enabled = false;
@@ -106,7 +108,6 @@ public class EnemyAI : MonoBehaviour
         }
         else
         {
-            // Respaldo cinematico 2D: garantiza el movimiento fluido si el punto no tiene malla
             Vector3 nextPos = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
             transform.position = new Vector3(nextPos.x, nextPos.y, 0f);
         }
@@ -139,12 +140,37 @@ public class EnemyAI : MonoBehaviour
         if (Time.time < nextAttackTime) return;
 
         nextAttackTime = Time.time + attackCooldown;
+
+        // 1. Dispara primero la animacion visual de ataque
         animator.SetTrigger(AttackHash);
 
-        IDamageable playerDamageable = playerTarget.GetComponent<IDamageable>();
-        if (playerDamageable != null)
+        // 2. Espera a que el brazo/dinamita baje para aplicar el dano y mostrar la explosion
+        StartCoroutine(ApplyDamageDelayedRoutine());
+    }
+
+    private IEnumerator ApplyDamageDelayedRoutine()
+    {
+        yield return new WaitForSeconds(attackHitDelay);
+
+        if (playerTarget == null || !playerTarget.gameObject.activeInHierarchy) yield break;
+
+        // Instancia la explosion sobre el jugador si tiene un VFX asignado (Boss)
+        if (attackEffectPrefab != null)
         {
-            playerDamageable.TakeDamage(attackDamage);
+            Vector3 spawnPos = new Vector3(playerTarget.position.x, playerTarget.position.y, 0f);
+            GameObject vfx = Instantiate(attackEffectPrefab, spawnPos, Quaternion.identity);
+            Destroy(vfx, 0.75f);
+        }
+
+        // Verifica que el jugador no haya esquivado alejandose demasiado durante el swing
+        float currentDistance = Vector2.Distance(transform.position, playerTarget.position);
+        if (currentDistance <= attackRange + 0.6f)
+        {
+            IDamageable playerDamageable = playerTarget.GetComponent<IDamageable>();
+            if (playerDamageable != null)
+            {
+                playerDamageable.TakeDamage(attackDamage);
+            }
         }
     }
 
