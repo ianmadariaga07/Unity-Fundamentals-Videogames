@@ -119,6 +119,95 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &10665263
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Preso
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "\xA1Dios mio, has llegado hasta el basti\xF3n enemigo! Acaba con su
+        l\xEDder para salvar el reino. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Ya me vas a liberar?
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 36.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1 &21480236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,6 +1370,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &78785835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Centinela Real
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Desde estas torres vigilamos el paso hacia el bosque.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: "Ten cuidado entre los \xE1rboles, los Goblins emboscan a cualquiera
+        que cruce el puente..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1001 &81820279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2060,6 +2238,93 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
+--- !u!1001 &200080151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Naufrago
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: 'Me he escapado! o eso es lo que pensaba... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Rapido, construye una barca que me estoy mojando, por favor...
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1 &200789936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4743,6 +5008,85 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.796875, y: 1.4935303}
   m_EdgeRadius: 0
+--- !u!1 &380192802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380192805}
+  - component: {fileID: 380192804}
+  - component: {fileID: 380192803}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &380192803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380192802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &380192804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380192802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &380192805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380192802}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &388745450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -984999,6 +985343,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &471832242 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 585354136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &479851055
 GameObject:
   m_ObjectHideFlags: 0
@@ -985546,7 +985895,7 @@ Transform:
   m_GameObject: {fileID: 497271629}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: -0.51, z: 0}
+  m_LocalPosition: {x: -0.65, y: -0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -986644,6 +986993,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.734375, y: 1.5961661}
   m_EdgeRadius: 0
+--- !u!4 &571584870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 1359139611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &571838877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
@@ -986907,6 +987261,94 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 63977fa730699f943bc69156b0114650, type: 3}
   m_PrefabInstance: {fileID: 584385868}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &585354136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Centinela Real
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Usa tu arco con Clic Derecho para atacarlos a distancia.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Presiona Tab si necesitas ver el mapa completo de las islas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!4 &595690722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
@@ -987668,6 +988110,93 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.1482506, y: 1.0680175}
   m_EdgeRadius: 0
+--- !u!1001 &671360814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Aldeano
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "\xA1Saludos, noble caballero! Qu\xE9 bueno verte con vida."
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Los Goblins han invadido nuestras tierras y saquearon las aldeas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Re\xFAnete con el Monarca en el castillo del sur cruzando el puente
+        entre las torres."
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1001 &676643724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -988215,6 +988744,94 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
   m_PrefabInstance: {fileID: 637272456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &727168139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Centinela Real
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Ten cuidado, hay goblins cerca...
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Recuerda, clic izquierdo para melee. Clic derecho para lanzar tus flechas
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1001 &728517162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -995587,6 +996204,143 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.65625, y: 2.6825762}
   m_EdgeRadius: 0
+--- !u!1 &883846444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883846447}
+  - component: {fileID: 883846446}
+  - component: {fileID: 883846445}
+  m_Layer: 5
+  m_Name: DialogueBodyText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &883846445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883846444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279115051
+  m_fontColor: {r: 0.16862746, g: 0.11372549, b: 0.05490196, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 19
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 14
+  m_fontSizeMax: 25
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &883846446
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883846444}
+  m_CullTransparentMesh: 1
+--- !u!224 &883846447
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883846444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1469908818}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &885590842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -995644,6 +996398,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
+--- !u!4 &886991533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 4817195758825445654}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &892042453
 GameObject:
   m_ObjectHideFlags: 0
@@ -996460,6 +997219,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &943211234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Perdido
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Creo que me perdi, no recuerdo haber visto este bosque alguna vez...
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1 &949604016
 GameObject:
   m_ObjectHideFlags: 0
@@ -998651,6 +999494,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
+--- !u!4 &1109703666 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 671360814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1114863372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 943211234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116592592
 GameObject:
   m_ObjectHideFlags: 0
@@ -999358,6 +1000211,225 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
   m_PrefabInstance: {fileID: 2134869622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1139784877
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Centinela Real
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Presiona Tab si necesitas ver el mapa completo de las islas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+--- !u!1001 &1146897786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Rico
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Quemaron mi campamento y se llevaron mis cofres hacia el desierto del
+        norte.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: Pero aqui me ha quedado algo de oro. Ten, tu le daras un mejor uso
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+--- !u!1 &1156624560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1156624562}
+  - component: {fileID: 1156624561}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1156624561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156624560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea559a7f9e40c684894898f6d8fea061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  dialoguePanel: {fileID: 1469908817}
+  npcNameText: {fileID: 1786979199}
+  dialogueBodyText: {fileID: 883846445}
+--- !u!4 &1156624562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156624560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1157582080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
@@ -1002373,6 +1003445,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1359139611
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Maestro Minero
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "Estas minas sol\xEDan ser seguras hasta que llegaron los exploradores
+        Goblin"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Tambien puede que veas oro por ahi, tal vez es tu dia de suerte y encuentres
+        un poco
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1 &1361818626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002677,6 +1003838,109 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1370063062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370063063}
+  - component: {fileID: 1370063066}
+  - component: {fileID: 1370063065}
+  - component: {fileID: 1370063064}
+  m_Layer: 5
+  m_Name: HUD_Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1370063063
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370063062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1469908818}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1370063064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370063062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1370063065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370063062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1370063066
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370063062}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1370809942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003689,6 +1004953,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
   m_PrefabInstance: {fileID: 836544602}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1426766775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426766776}
+  m_Layer: 0
+  m_Name: NPCs_Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1426766776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426766775}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.90353, y: -13.17217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 886991533}
+  - {fileID: 1437905473}
+  - {fileID: 2046934781}
+  - {fileID: 471832242}
+  - {fileID: 2072199428}
+  - {fileID: 571584870}
+  - {fileID: 1671473934}
+  - {fileID: 1109703666}
+  - {fileID: 1114863372}
+  - {fileID: 2093459179}
+  - {fileID: 1770591622}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1426934107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003967,6 +1005273,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!4 &1437905473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 1139784877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1448490923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1004273,6 +1005584,83 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.734375, y: 2.71875}
   m_EdgeRadius: 0
+--- !u!1 &1469908817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469908818}
+  - component: {fileID: 1469908820}
+  - component: {fileID: 1469908819}
+  m_Layer: 5
+  m_Name: DialoguePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1469908818
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469908817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 883846447}
+  - {fileID: 1786979197}
+  m_Father: {fileID: 1370063063}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -340}
+  m_SizeDelta: {x: 950, y: 240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1469908819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469908817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1611135627137491982, guid: cb3b5af1fc5151841824fc07a9ce1d52, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1469908820
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469908817}
+  m_CullTransparentMesh: 1
 --- !u!4 &1473515014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
@@ -1005286,7 +1006674,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 37577c5a2b2b50c46946e72dace69ba5, type: 2}
+  - {fileID: 2100000, guid: 39fd10c7942bdad48bfbd3195b25677c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1024229,6 +1025617,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1671473934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 1146897786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1686411323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025236,6 +1026629,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
+--- !u!4 &1770591622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 200080151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1773376628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025447,6 +1026845,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1786979196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786979197}
+  - component: {fileID: 1786979198}
+  - component: {fileID: 1786979199}
+  m_Layer: 5
+  m_Name: NPCNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1786979197
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786979196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1469908818}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 70}
+  m_SizeDelta: {x: 580, y: 36}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1786979198
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786979196}
+  m_CullTransparentMesh: 1
+--- !u!114 &1786979199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786979196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: NPC
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279311434
+  m_fontColor: {r: 0.2901961, g: 0.10980392, b: 0.06666667, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1001 &1802408352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029055,6 +1030590,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7949632503121040058, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
   m_PrefabInstance: {fileID: 1829505709}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2046934781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 78785835}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2047896015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029710,6 +1031250,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.734375, y: 1.876812}
   m_EdgeRadius: 0
+--- !u!4 &2072199428 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 727168139}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2074596065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029927,6 +1031472,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 680196708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2093459179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+  m_PrefabInstance: {fileID: 10665263}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2094166845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1031122,6 +1032672,95 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa63dd98655cec74ba581eb3fe4bca92, type: 3}
+--- !u!1001 &4817195758825445654
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1426766776}
+    m_Modifications:
+    - target: {fileID: 215908789722525341, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_Name
+      value: NPC_Villager
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: npcName
+      value: Monarca Real
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "\xA1Noble H\xE9roe! Qu\xE9 alivio tenerte frente al castillo real"
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Las hordas Goblin robaron nuestras reservas de oro y provisiones para
+        el invierno.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: Explora las 6 islas del reino, derrota a los invasores y recolecta nuestros
+        recursos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: Usa Clic Izquierdo para tu espada, Clic Derecho para tu arco y Tab para
+        ver el mapa.
+      objectReference: {fileID: 0}
+    - target: {fileID: 918925081353373977, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Los Goblins han invadido nuestras tierras. \xA1Ayudanos a recuperar
+        la paz!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634654458725436998, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04d9157088536764fb4ddd23f6ca527e, type: 3}
 --- !u!1001 &5966980856909037106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1031192,3 +1032831,7 @@ SceneRoots:
   - {fileID: 497271633}
   - {fileID: 1936368270}
   - {fileID: 1298904994}
+  - {fileID: 1370063063}
+  - {fileID: 380192805}
+  - {fileID: 1156624562}
+  - {fileID: 1426766776}
