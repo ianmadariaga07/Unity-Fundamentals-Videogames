@@ -55,6 +55,7 @@ public class PlayerCombat : MonoBehaviour
     private void ExecuteMeleeAttack()
     {
         animator.SetTrigger(MeleeAttackHash);
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayMeleeSFX();
 
         // Si olvidaste asignar AttackPoint en el Inspector, usa la posicion del propio Player como respaldo
         Vector2 hitOrigin = attackPoint != null ? attackPoint.position : transform.position;
@@ -81,6 +82,7 @@ public class PlayerCombat : MonoBehaviour
     private void ExecuteRangedAttack()
     {
         animator.SetTrigger(RangedAttackHash);
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayBowSFX();
 
         if (arrowPrefab == null) return;
 

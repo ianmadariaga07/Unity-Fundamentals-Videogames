@@ -2,8 +2,8 @@
 using UnityEngine.UI;
 
 /// <summary>
-/// Servicio centralizado (Singleton) para la reproduccion de musica de fondo, efectos de sonido (SFX)
-/// y control global de volumen persistente mediante PlayerPrefs (Requisito Obligatorio de Rubrica).
+/// Servicio centralizado (Singleton) para musica de fondo (Exploracion, Boss Fight y Victoria),
+/// opcion de silenciar musica (Mute), efectos de sonido (SFX) y control de volumen persistente.
 /// </summary>
 [RequireComponent(typeof(AudioSource))]
 public class AudioManager : MonoBehaviour
@@ -11,26 +11,43 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance { get; private set; }
 
     private const string VolumePrefsKey = "RPG_MasterVolume";
+    private const string MuteMusicPrefsKey = "RPG_MuteMusic";
 
     [Header("Fuentes de Audio")]
-    [Tooltip("AudioSource principal para la musica de fondo en bucle.")]
+    [Tooltip("AudioSource dedicado a la musica de fondo.")]
     [SerializeField] private AudioSource musicSource;
-    [Tooltip("AudioSource secundario opcional para efectos de sonido (espada, botones, explosion).")]
+    [Tooltip("AudioSource dedicado a efectos de sonido.")]
     [SerializeField] private AudioSource sfxSource;
 
-    [Header("Clips de Sonido")]
-    [Tooltip("Cancion medieval de fondo para el escenario.")]
+    [Header("Pistas de Musica")]
+    [Tooltip("Musica de fondo principal de la escena actual (Menu o Gameplay).")]
     [SerializeField] private AudioClip backgroundMusic;
-    [Tooltip("Sonido opcional al hacer clic o atacar.")]
-    [SerializeField] private AudioClip actionSfx;
+    [Tooltip("Musica intensa exclusiva para el combate contra el Jefe Final.")]
+    [SerializeField] private AudioClip bossFightMusic;
+    [Tooltip("Musica o fanfarria que suena al derrotar al Jefe Final y ganar la partida.")]
+    [SerializeField] private AudioClip victoryMusic;
 
-    [Header("Control de Interfaz (Opcional en Escena)")]
-    [Tooltip("Slider de UI para ajustar el volumen en tiempo real.")]
+    [Header("Efectos de Sonido (SFX)")]
+    [Tooltip("Sonido al hacer clic en cualquier boton de la interfaz.")]
+    [SerializeField] private AudioClip buttonClickSfx;
+    [Tooltip("Sonido al atacar cuerpo a cuerpo con la espada.")]
+    [SerializeField] private AudioClip meleeAttackSfx;
+    [Tooltip("Sonido al disparar una flecha con el arco.")]
+    [SerializeField] private AudioClip bowShootSfx;
+    [Tooltip("Sonido del Jefe Final (al iniciar pelea o lanzar dinamita).")]
+    [SerializeField] private AudioClip bossActionSfx;
+
+    [Header("Controles de UI en Escena (Opcional)")]
+    [Tooltip("Slider de volumen de la escena actual.")]
     [SerializeField] private Slider volumeSlider;
+    [Tooltip("Toggle (casilla) opcional para quitar/activar la musica.")]
+    [SerializeField] private Toggle muteMusicToggle;
 
     private float currentVolume = 0.8f;
+    private bool isMusicMuted = false;
 
     public float CurrentVolume => currentVolume;
+    public bool IsMusicMuted => isMusicMuted;
 
     private void Awake()
     {
@@ -46,21 +63,32 @@ public class AudioManager : MonoBehaviour
             musicSource = GetComponent<AudioSource>();
         }
 
-        // Recupera el volumen guardado en memoria (equivalente a localStorage) o usa 0.8 por defecto
+        if (sfxSource == null)
+        {
+            sfxSource = gameObject.AddComponent<AudioSource>();
+            sfxSource.playOnAwake = false;
+        }
+
         currentVolume = PlayerPrefs.GetFloat(VolumePrefsKey, 0.8f);
-        ApplyVolume(currentVolume);
+        isMusicMuted = PlayerPrefs.GetInt(MuteMusicPrefsKey, 0) == 1;
+
+        ApplyAudioSettings();
     }
 
     private void Start()
     {
-        // Vincula automaticamente el Slider de volumen si existe en la escena actual
         if (volumeSlider != null)
         {
-            volumeSlider.value = currentVolume;
+            volumeSlider.SetValueWithoutNotify(currentVolume);
             volumeSlider.onValueChanged.AddListener(SetVolume);
         }
 
-        // Inicia la reproduccion de musica de fondo si hay un clip asignado
+        if (muteMusicToggle != null)
+        {
+            muteMusicToggle.SetIsOnWithoutNotify(isMusicMuted);
+            muteMusicToggle.onValueChanged.AddListener(SetMusicMuted);
+        }
+
         if (backgroundMusic != null && musicSource != null)
         {
             musicSource.clip = backgroundMusic;
@@ -72,53 +100,78 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Ajusta el volumen global del juego y guarda la preferencia del usuario.
-    /// Este metodo puede conectarse directamente al evento OnValueChanged de un UI Slider.
-    /// </summary>
     public void SetVolume(float newVolume)
     {
         currentVolume = Mathf.Clamp01(newVolume);
-        ApplyVolume(currentVolume);
+        ApplyAudioSettings();
         PlayerPrefs.SetFloat(VolumePrefsKey, currentVolume);
         PlayerPrefs.Save();
     }
 
-    private void ApplyVolume(float volume)
+    public void SetMusicMuted(bool muted)
     {
-        // Controla el bus maestro de Unity y las fuentes individuales
-        AudioListener.volume = volume;
+        isMusicMuted = muted;
+        ApplyAudioSettings();
+        PlayerPrefs.SetInt(MuteMusicPrefsKey, isMusicMuted ? 1 : 0);
+        PlayerPrefs.Save();
+    }
+
+    public void ToggleMusicMute()
+    {
+        SetMusicMuted(!isMusicMuted);
+        PlayButtonClickSFX();
+    }
+
+    private void ApplyAudioSettings()
+    {
+        AudioListener.volume = currentVolume;
 
         if (musicSource != null)
         {
-            musicSource.volume = volume;
+            musicSource.volume = currentVolume;
+            musicSource.mute = isMusicMuted;
         }
 
         if (sfxSource != null)
         {
-            sfxSource.volume = volume;
+            sfxSource.volume = currentVolume;
         }
     }
 
     /// <summary>
-    /// Reproduce un efecto de sonido puntual sin interrumpir la musica de fondo.
+    /// Cambia dinamicamente la pista musical al tema del Jefe Final.
     /// </summary>
+    public void PlayBossFightMusic()
+    {
+        if (bossFightMusic == null || musicSource == null) return;
+        if (musicSource.clip == bossFightMusic && musicSource.isPlaying) return;
+
+        musicSource.clip = bossFightMusic;
+        musicSource.loop = true;
+        musicSource.Play();
+    }
+
+    /// <summary>
+    /// Detiene la musica de combate y reproduce el audio de Victoria al mostrar la pantalla final.
+    /// </summary>
+    public void PlayVictoryMusic()
+    {
+        if (victoryMusic == null || musicSource == null) return;
+
+        musicSource.Stop();
+        musicSource.clip = victoryMusic;
+        musicSource.loop = false; // Suena una vez como fanfarria triunfal (pon true si es cancion en bucle)
+        musicSource.Play();
+    }
+
     public void PlaySFX(AudioClip clip)
     {
-        if (clip == null) return;
-
-        if (sfxSource != null)
-        {
-            sfxSource.PlayOneShot(clip, currentVolume);
-        }
-        else if (musicSource != null)
-        {
-            musicSource.PlayOneShot(clip, currentVolume);
-        }
+        if (clip == null || sfxSource == null) return;
+        sfxSource.PlayOneShot(clip, currentVolume);
     }
 
-    public void PlayDefaultActionSFX()
-    {
-        PlaySFX(actionSfx);
-    }
+    public void PlayButtonClickSFX() => PlaySFX(buttonClickSfx);
+    public void PlayMeleeSFX() => PlaySFX(meleeAttackSfx);
+    public void PlayBowSFX() => PlaySFX(bowShootSfx);
+    public void PlayBossSFX() => PlaySFX(bossActionSfx);
 }

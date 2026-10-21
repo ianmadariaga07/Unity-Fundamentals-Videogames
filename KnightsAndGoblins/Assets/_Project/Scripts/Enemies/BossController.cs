@@ -98,6 +98,11 @@ public class BossController : MonoBehaviour
         {
             DialogueManager.Instance.StartDialogue(bossName, bossFightDialogue);
         }
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayBossFightMusic();
+            AudioManager.Instance.PlayBossSFX();
+        }
     }
 
     private void EndBossIntroAndFight()

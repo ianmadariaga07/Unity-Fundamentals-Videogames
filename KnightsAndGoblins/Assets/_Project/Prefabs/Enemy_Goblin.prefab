@@ -232,6 +232,8 @@ MonoBehaviour:
   attackRange: 1
   attackDamage: 10
   attackCooldown: 1.2
+  attackHitDelay: 0.28
+  attackEffectPrefab: {fileID: 0}
 --- !u!114 &6736873652224948901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,9 +250,11 @@ MonoBehaviour:
   currentHealth: 0
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   flashDuration: 0.22
+  deathEffectPrefab: {fileID: 8287741654882556849, guid: 4849dcbd5b3a5ad48b3cf0451b8bd088, type: 3}
   scoreValue: 10
   dropChance: 0.75
   possibleDrops:
   - {fileID: 2483664957104447048, guid: 43a02ffd03c911a4a940d90361eae85a, type: 3}
   - {fileID: 5079025847651439154, guid: bde50680e39f35045a4e4e70e96595a0, type: 3}
   - {fileID: 1320729626730058297, guid: 9666ef0fa7af2534c8b6b40a75e890f9, type: 3}
+  triggersVictoryOnDeath: 0
