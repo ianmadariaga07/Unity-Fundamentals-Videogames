@@ -71,7 +71,12 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         isDead = true;
         Debug.Log("Game Over: El heroe ha caido en combate.");
-        // Desactivamos al jugador; en el Sprint 6 conectaremos aqui el panel de Game Over
+
+        if (GameFlowManager.Instance != null)
+        {
+            GameFlowManager.Instance.TriggerGameOver();
+        }
+
         gameObject.SetActive(false);
     }
 }

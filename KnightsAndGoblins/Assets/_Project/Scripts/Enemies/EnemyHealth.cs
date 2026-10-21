@@ -31,6 +31,9 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     [Tooltip("Lista de Prefabs coleccionables que puede soltar (ej. Oro, Carne, Madera).")]
     [SerializeField] private GameObject[] possibleDrops;
 
+    [Tooltip("Marca esta casilla UNICAMENTE en el Boss para disparar el Fin de Juego (Victoria) al derrotarlo.")]
+    [SerializeField] private bool triggersVictoryOnDeath = false;
+
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
     private Coroutine flashCoroutine;
@@ -105,7 +108,13 @@ public class EnemyHealth : MonoBehaviour, IDamageable
             GameObject vfx = Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
             Destroy(vfx, 0.8f); // Liberamos memoria despues de la animacion
         }
+        // 5. Si esta entidad es el Jefe Final, dispara la pantalla de Fin de Juego (Victoria)
+        if (triggersVictoryOnDeath && GameFlowManager.Instance != null)
+        {
+            GameFlowManager.Instance.TriggerVictory();
+        }
 
+        Destroy(gameObject);
         Destroy(gameObject);
     }
 
